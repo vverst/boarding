@@ -22,6 +22,10 @@
       "description": "Optional: If you're in multiple teams, enter the name of your iTC team here. Make sure it matches.",
       "required": false
     },
+    "FASTLANE_SESSION": {
+      "description": "Optional: existing fastlane session (using command: fastlane spaceauth) to bypass two factor authentication.",
+      "required": false
+    },
     "ITC_APP_TESTER_GROUPS": {
       "description": "Optional: The groups you want the invited to be placed in",
       "required": false
